@@ -10,10 +10,10 @@ def button click():
     for i in range(n):
     x.append(int(input()))
 
-label-tkinter.Label(text='Введіть кількість елементів:')
+label-tkinter.Label(window, text='Введіть кількість елементів:')
 
 label.pack()
-edit-tkinter. Entry (main, textvariable=s)
+edit-tkinter. Entry (window, textvariable=s)
 
 edit.pack()
 
