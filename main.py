@@ -13,11 +13,11 @@ def button click():
 label-tkinter.Label(window, text='Введіть кількість елементів:')
 
 label.pack()
-edit-tkinter. Entry (window, textvariable=s)
+edit-tkinter.Entry(window, textvariable=s)
 
 edit.pack()
 
-button-tkinter.Button (window, text="Розпочати введення", command button click)
+button-tkinter.Button(window, text="Розпочати введення", command button click)
 
 button.pack()
 window.mainloop()
